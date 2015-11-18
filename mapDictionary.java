@@ -6,8 +6,7 @@ public class mapDictionary<K,V> implements dictionary<K, V> {
 
     private Map<K,V> m;
     private int size;
-    
-    //22.10.2015 tue ich erst mit treemap
+   
     
     public mapDictionary(Map<K,V> m) { 
         

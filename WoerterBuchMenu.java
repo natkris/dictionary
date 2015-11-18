@@ -9,6 +9,7 @@ package dictionary;
 /**
  *
  * @author Nataniel
+ * @author Mark
  * @version 18.11.2015
  */
 

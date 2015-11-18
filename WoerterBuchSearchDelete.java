@@ -15,6 +15,7 @@ import javax.swing.border.Border;
 /**
  *
  * @author Nataniel
+ * @author Mark
  * @version 18.11.2015
  */
 public class WoerterBuchSearchDelete extends JPanel implements ActionListener {

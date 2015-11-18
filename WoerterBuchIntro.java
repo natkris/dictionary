@@ -17,6 +17,7 @@ import javax.swing.JButton;
 /**
  *
  * @author Nataniel
+ * @author Mark
  * @version 18.11.2015
  */
 public class WoerterBuchIntro extends JFrame implements ActionListener{
