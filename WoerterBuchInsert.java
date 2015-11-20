@@ -70,8 +70,12 @@ public class WoerterBuchInsert extends JPanel implements ActionListener {
         
         //insert option
         if(s==bInsert){
+            try{
                 WoerterBuchGUI.dt.insert(deutsch, englisch);
                 JOptionPane.showMessageDialog(myFrame, "You have inserted one word");
+            } catch(NullPointerException f){
+                JOptionPane.showMessageDialog(myFrame, "There is nothing to inserted!");
+            }
             } 
 
         }
